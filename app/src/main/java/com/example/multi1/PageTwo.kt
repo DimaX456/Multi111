@@ -1,5 +1,6 @@
 package com.example.multi1
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -8,7 +9,7 @@ import com.example.multi1.databinding.ActivityPageTwoBinding
 class PageTwo : AppCompatActivity() {
     private lateinit var binding: ActivityPageTwoBinding
 
-    lateinit var binding: ActivityPageTwoBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

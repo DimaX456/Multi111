@@ -34,16 +34,26 @@
         android:id="@+id/txtViewFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="590dp" />
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="122dp"
+        android:text="Activity 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTxtPersonaName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClickForTwo" />
 
     <TextView
         android:id="@+id/editTxtPersonaName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="593dp" />
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="119dp"
+        android:text="Проверка"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtViewFullName"
+        app:layout_constraintTop_toBottomOf="@+id/btnClickForTwo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
